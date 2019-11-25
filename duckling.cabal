@@ -1,4 +1,4 @@
--- Copyright (c) 2016-present, Facebook, Inc.
+-fopenssl-- Copyright (c) 2016-present, Facebook, Inc.
 -- All rights reserved.
 --
 -- This source code is licensed under the BSD-style license found in the
@@ -1119,7 +1119,8 @@ executable duckling-example-exe
                      , extra
                      , filepath              >= 1.4.0.0 && < 1.5
                      , snap-core             >= 1.0.2.0 && < 1.1
-                     , snap-server -fopenssl >= 1.0.1.1 && < 1.2
+                     , snap-server           >= 1.0.1.1 && < 1.2
+                     , openssl
                      , text
                      , text-show
                      , time
