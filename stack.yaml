@@ -5,7 +5,7 @@ packages:
 
 extra-deps: []
 
-flags: flags:
+flags:
   snap-server:
     openssl: True
 
