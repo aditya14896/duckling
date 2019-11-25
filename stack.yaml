@@ -3,7 +3,7 @@ resolver: lts-9.10
 packages:
 - '.'
 
-extra-deps: [openssl]
+extra-deps: []
 
 flags: {}
 
