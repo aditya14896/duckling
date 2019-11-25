@@ -32,7 +32,6 @@ import Data.Time.Clock.POSIX (posixSecondsToUTCTime)
 import Snap.Core
 import Snap.Http.Server
 import Snap.Http.Server.Config
-import HsOpenSSL
 
 import Duckling.Core
 import Duckling.Data.TimeZone
