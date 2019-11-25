@@ -1119,7 +1119,7 @@ executable duckling-example-exe
                      , extra
                      , filepath              >= 1.4.0.0 && < 1.5
                      , snap-core             >= 1.0.2.0 && < 1.1
-                     , snap-server           >= 1.0.1.1 && < 1.2
+                     , snap-server -fopenssl >= 1.0.1.1 && < 1.2
                      , text
                      , text-show
                      , time
