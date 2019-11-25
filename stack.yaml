@@ -2,9 +2,8 @@ resolver: lts-9.10
 
 packages:
 - '.'
-- 'openssl'
 
-extra-deps: []
+extra-deps: [openssl]
 
 flags: {}
 
