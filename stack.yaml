@@ -6,7 +6,8 @@ packages:
 extra-deps: []
 
 flags:
-  allow-different-user: true
+  stack:
+    allow-different-user: true
   snap-server:
     openssl: True
 
