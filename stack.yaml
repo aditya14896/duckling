@@ -8,5 +8,9 @@ extra-deps: []
 flags:
   snap-server:
     openssl: True
+    extra-include-dirs:
+    - /usr/local/opt/openssl/include
+    extra-lib-dirs:
+    - /usr/local/opt/openssl/lib
 
 extra-package-dbs: []
