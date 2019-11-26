@@ -8,6 +8,8 @@ extra-deps: []
 flags:
   snap-server:
     openssl: True
+  
+  HsOpenSSL:
     extra-include-dirs:
     - /usr/local/opt/openssl/include
     extra-lib-dirs:
